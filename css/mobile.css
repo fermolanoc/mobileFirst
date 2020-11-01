@@ -47,7 +47,7 @@ header img {
   margin-top: 60px;
   align-self: center;
 }
-.header--title-container {
+.header__title--container {
   width: 90%;
   min-width: 288px;
   max-width: 900px;
@@ -56,20 +56,20 @@ header img {
   text-align: center;
   align-self: center;
 }
-.header--title-container h1 {
+.header__title--container h1 {
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 2.6rem;
   color: var(--just-white);
 }
-.header--title-container p {
+.header__title--container p {
   margin-top: 25px;
   size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
   color: var(--soft-orange);
 }
-.header--title-container .header--button {
+.header__title--container .header__button {
   position: absolute;
   left: calc(50% - 118px);
   top: 270px;
@@ -88,10 +88,53 @@ header img {
   text-decoration: none;
   color: var(--black);
 }
-.header--button span {
+.header__button span {
   display: inline-block;
   width: 13px;
   height: 8px;
   margin-left: 10px;
   background-image: url("https://i.postimg.cc/3wT9fCBr/down-arrow.png");
+}
+
+main {
+  width: 100%;
+  height: auto;
+  background-color: var(--off-white);
+}
+.main__exchange__container {
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.background__image__container {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background-image: url("https://i.postimg.cc/zDSdWWDn/bitcoin.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main__exchange__container--title {
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.main__exchange__container--title h2 {
+  margin-bottom: 30px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--black);
+}
+.main__exchange__container--title p {
+  margin-bottom: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  color: #757575;
 }
