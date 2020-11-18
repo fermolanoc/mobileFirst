@@ -29,6 +29,7 @@ html {
   /* font-family: "Inter", sans-serif; */
 }
 
+/* Header */
 header {
   background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
   position: relative;
@@ -96,6 +97,7 @@ header img {
   background-image: url("https://i.postimg.cc/3wT9fCBr/down-arrow.png");
 }
 
+/* Main */
 main {
   width: 100%;
   height: auto;
@@ -233,6 +235,93 @@ main {
   color: var(--secondary-blue);
 }
 
-/* .hideTable {
-  display: none;
-} */
+/* Benefits */
+.main__product__detail {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 2rem 1rem;
+  background-color: var(--warm-black);
+}
+.product__detail__batata__logo {
+  position: absolute;
+  width: 4rem;
+  height: 2.5rem;
+  top: -1rem;
+  left: calc(50% - 2rem);
+  background-image: url("../assets/imgs/logo.svg");
+}
+.product__detail__title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 5rem;
+  text-align: center;
+}
+.product__detail__title h2 {
+  margin-bottom: 2rem;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--just-white);
+}
+.product__detail__title p {
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
+}
+
+.product__detail__card {
+  width: 90%;
+  min-width: 288px;
+  max-width: 400px;
+  height: 150px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: var(--black);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.product__detail__card .clock,
+.eye,
+.dollar-sign,
+.check-circle {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.clock {
+  background-image: url("../assets/icons/clock.png");
+}
+.eye {
+  background-image: url("../assets/icons/eye.png");
+}
+.dollar-sign {
+  background-image: url("../assets/icons/dollar-sign.png");
+}
+.check-circle {
+  background-image: url("../assets/icons/check-circle.png");
+}
+
+.product__card__title {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--just-white);
+}
+.product__card__body {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
+}
