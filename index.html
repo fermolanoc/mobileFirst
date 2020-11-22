@@ -9,6 +9,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px)" />
   </head>
   <body>
     <!-- HEADER -->
@@ -42,9 +43,11 @@
           </p>
         </div>
         <section class="main__tables__container">
+          <!-- <span class="previous"></span>-->
+          <span class="next"></span>
           <div class="main__tables__container--monedas">
             <h2 class="main__tables__container--title">Monedas</h2>
-            <div class="main__tables__container--details">
+            <div class="main__tables__container--details table">
               <div class="bitcoin moneda">Bitcoin</div>
               <div class="valor1 valor">$ 1.96</div>
               <img
@@ -78,10 +81,10 @@
               />
             </div>
             <div class="currency__update">
-              <p><b>Actualizado</b>: 02 de Noviembre 22:27</p>
+              <p><b>Actualizado</b>: 21 de Noviembre 7:27</p>
             </div>
           </div>
-          <div class="main__tables__container--comisiones hideTable">
+          <div class="main__tables__container--comisiones table hideTable">
             <h2 class="main__tables__container--title">Comisiones</h2>
             <div class="main__tables__container--details">
               <div class="bitcoin moneda">Bitcoin</div>
@@ -112,7 +115,7 @@
               <div class="valor4 valor">$ 4.96</div>
               <img
                 class="indicador4 icon"
-                src="https://i.postimg.cc/CxdJWQGN/vector-down.png"
+                src="https://i.postimg.cc/W1KSjwSP/vector-up.png"
                 alt=""
               />
             </div>
@@ -138,8 +141,7 @@
                 más determinan el comportamiento.
               </p>
             </article>
-          </section>
-          <section class="product__cards__container">
+
             <article class="product__detail__card">
               <span class="eye"></span>
               <p class="product__card__title">No hay tasas escondidas</p>
@@ -148,8 +150,7 @@
                 el costo real de lo que estás adquiriendo.
               </p>
             </article>
-          </section>
-          <section class="product__cards__container">
+
             <article class="product__detail__card">
               <span class="dollar-sign"></span>
               <p class="product__card__title">Compara monedas</p>
@@ -158,8 +159,7 @@
                 en el mercado actual.
               </p>
             </article>
-          </section>
-          <section class="product__cards__container">
+
             <article class="product__detail__card">
               <span class="check-circle"></span>
               <p class="product__card__title">información confiable</p>
@@ -180,6 +180,8 @@
           <p>Cualquier plan te da acceso completo a nuestra plataforma.</p>
         </div>
         <section class="plans__container__slider">
+          <span class="previous"></span>
+          <span class="next"></span>
           <article class="plans__container--card">
             <div class="plan__info-container">
               <h3 class="plan__card__title">Pago Anual</h3>
